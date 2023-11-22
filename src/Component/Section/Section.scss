@@ -1,0 +1,64 @@
+
+.section{
+    background: linear-gradient(rgba(13, 5, 56, 0.647),rgba(13, 5, 56, 0.647)),url('../../Img/banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+    height: 100vh;
+    width: 100%;
+    
+    .align{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .btn-Demo , .btn-Purchase{
+            background: transparent;
+            border: none;
+            color: white;
+            padding: 17px 50px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        .btn-Demo::after{
+            position: absolute;
+            content: "";
+            background-color: #d92b4c;
+            border: 1px solid #d92b4c;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            transform: skew(-10deg);
+            z-index: -1;
+        }
+        .btn-Purchase::after{
+            position: absolute;
+            content: "";
+            border: 1px solid white;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            transform: skew(-10deg);
+            z-index: -1;
+            transition: all .3s;
+
+        }
+        .btn-Purchase:hover::after{
+            background-color: #d92b4c;
+            border: 1px solid #d92b4c;
+            transition: all .3s;
+        }
+    
+    }
+
+}

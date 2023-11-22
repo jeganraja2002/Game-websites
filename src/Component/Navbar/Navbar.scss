@@ -1,0 +1,19 @@
+
+.Header{
+	background-color: rgba(8,3,37,.94); 
+    padding: 10px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 4;
+    .align{
+        align-items: center;
+        justify-content: space-between;
+    
+        ul{
+            list-style-type: none;
+            justify-content: space-around;
+        }
+    }
+
+}

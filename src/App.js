@@ -11,7 +11,7 @@ import Section7 from './Component/Section7/Section7';
 
 function App() {
   return (
-    <div>
+    <div basename={process.env.PUBLIC_URL}>
       <Navbar/>
       <Section/>
       <Section2/>

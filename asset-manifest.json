@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Game-websites/static/css/main.56f3c73f.css",
+    "main.js": "/Game-websites/static/js/main.be02845f.js",
+    "static/js/787.4897525c.chunk.js": "/Game-websites/static/js/787.4897525c.chunk.js",
+    "static/media/banner-bg.jpg": "/Game-websites/static/media/banner-bg.09831424681594c96736.jpg",
+    "static/media/game-dark-souls.jpg": "/Game-websites/static/media/game-dark-souls.bb144a4aae775c24a3e0.jpg",
+    "static/media/game-bloodborne.jpg": "/Game-websites/static/media/game-bloodborne.41ce58ba17f38fbd8cc3.jpg",
+    "static/media/footer-bg.jpg": "/Game-websites/static/media/footer-bg.7837334217d808efb29c.jpg",
+    "static/media/nav-logo.png": "/Game-websites/static/media/nav-logo.417db7ce194cfa3b5179.png",
+    "static/media/logo.svg": "/Game-websites/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Game-websites/index.html",
+    "main.56f3c73f.css.map": "/Game-websites/static/css/main.56f3c73f.css.map",
+    "main.be02845f.js.map": "/Game-websites/static/js/main.be02845f.js.map",
+    "787.4897525c.chunk.js.map": "/Game-websites/static/js/787.4897525c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56f3c73f.css",
+    "static/js/main.be02845f.js"
+  ]
+}
